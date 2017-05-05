@@ -139,3 +139,75 @@ body{
 	width       : 50px;
 	height      : 50px;
 }
+
+
+.carousel-caption>h4{
+	letter-spacing   : 2px;
+}
+
+
+/*
+
+	Aim section
+
+*/
+
+.container-fluid>.row>.aim{
+	height            : 400px;
+	background-color  : #000;
+
+}
+
+.aim>h6{
+	margin       : 0px;
+	padding-top  : 120px;
+	color        : #0052CC;
+	font-size    : 25px;
+	font-weight  : 400;
+	text-align   : center;
+	font-family  : 'Titillium Web', sans-serif;
+
+}
+
+.aim>p{
+	text-align   : center;
+	width        : 900px;
+	margin-left  : auto;
+	margin-right : auto;
+	margin-top   : 30px;
+	font-size    : 18px;
+}
+
+
+/*
+
+	Security section
+
+*/
+
+.security{
+	height            : 500px;
+	background-color  : #000;
+
+}
+
+.security .security-description{
+	padding  : 30px;
+}
+
+.security .security-description>h6{
+	margin         : 0px;
+	padding-top    : 30px;
+	padding-bottom : 20px;
+	color          : #0052CC;
+	font-size      : 25px;
+	font-weight    : 400;
+	font-family    : 'Titillium Web', sans-serif;
+	text-transform : uppercase;
+}
+
+.security .security-description>p{
+	font-size      : 18px;
+	text-align     : justify;
+	text-indent    : 50px;
+}
