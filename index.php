@@ -35,13 +35,16 @@
 			<div class="item">
 				<img src="img/background.jpg">
 			</div>
+			<div class="item">
+				<img src="img/background.jpg" alt="">
+			</div>
 		</div>
 
 		<a href="#mainCarousel" class="left carousel-control" data-slide="prev">
-			<span class="glyphicon glyphicon-arrow-left"></span>
+			<i class="fa fa-angle-left" aria-hidden="true"></i>
 		</a>
 		<a href="#mainCarousel" class="right carousel-control" data-slide="next">
-			<span class="glyphicon glyphicon-arrow-right"></span>
+			<i class="fa fa-angle-right" aria-hidden="true"></i>
 		</a>
 	</div>
 </body>
