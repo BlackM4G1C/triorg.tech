@@ -122,7 +122,7 @@
 	<div class="container-fluid">
 		<div class="webdeveloping">
 			<div class="row">
-				<div class="col-md-6 col-sm-6 col-sm-offset-5">
+				<div class="col-md-6 col-sm-6">
 					<div class="webdev-slide">
 						<div class="carousel slide" data-ride="carousel" id="webdev-slide">
 							<div class="carousel-inner">
