@@ -84,8 +84,8 @@
 		</div>
 	</div>
 	<div class="container-fluid">
-		<div class="row">
-			<div class="security">
+		<div class="security">
+			<div class="row">
 				<div class="col-md-6 col-sm-6">
 					<div class="security-description">
 						<h6>TRI Organization and Information Security</h6>
@@ -98,24 +98,12 @@
 						<div class="carousel slide" data-ride="carousel" id="security-slide">
 							<div class="carousel-inner">
 								<div class="item active">
-									<div class="carousel-caption">
-										<h2>What is TRI Organization ?</h2>
-										<h4>TRI Organization is Information Technology Organization and Who train Information Technology students to become professional. </h4>
-									</div>
 									<img src="img/background.jpg">
 								</div>
 								<div class="item">
-									<div class="carousel-caption">
-										<h2>What is TRI Organizaton Aim ?</h2>
-										<h4>Our aim is To produce own projects, searh bugs, participate in Information Technonogy competition.</h4>
-									</div>
 									<img src="img/background.jpg">
 								</div>
 								<div class="item">
-									<div class="carousel-caption">
-										<h2>What is TRI Organizaton Aim ?</h2>
-										<h4>Our aim is To produce own projects, searh bugs, participate in Information Technonogy competition.</h4>
-									</div>
 									<img src="img/background.jpg" alt="">
 								</div>
 							</div>
@@ -126,6 +114,53 @@
 								<i class="fa fa-angle-right" aria-hidden="true"></i>
 							</a>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="webdeveloping">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="webdev-slide">
+						<div class="carousel slide" data-ride="carousel" id="webdev-slide">
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="img/background.jpg">
+								</div>
+								<div class="item">
+									<img src="img/background.jpg">
+								</div>
+								<div class="item">
+									<img src="img/background.jpg" alt="">
+								</div>
+							</div>
+							<a href="#webdev-slide" class="left carousel-control" data-slide="prev">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>
+							</a>
+							<a href="#webdev-slide" class="right carousel-control" data-slide="next">
+								<i class="fa fa-angle-right" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="webdev-description">
+						<h6>TRI Organization and Web Developing</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="software-engineering">
+			<div class="row">
+				<div class="se-detail">
+					<div class="col-md-12 col-sm-12">
+
 					</div>
 				</div>
 			</div>
