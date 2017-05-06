@@ -158,9 +158,9 @@
 	<div class="container-fluid">
 		<div class="software-engineering">
 			<div class="row">
-				<div class="se-detail">
-					<div class="col-md-12 col-sm-12">
-
+				<div class="col-md-12 col-sm-12">
+					<div class="se-detail">
+						<h5>TRI Organization and Software Enginnering</h5>
 					</div>
 				</div>
 			</div>
