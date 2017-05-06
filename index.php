@@ -122,7 +122,7 @@
 	<div class="container-fluid">
 		<div class="webdeveloping">
 			<div class="row">
-				<div class="col-md-6 col-sm-6">
+				<div class="col-md-6 col-sm-6 col-sm-offset-5">
 					<div class="webdev-slide">
 						<div class="carousel slide" data-ride="carousel" id="webdev-slide">
 							<div class="carousel-inner">
@@ -158,9 +158,9 @@
 	<div class="container-fluid">
 		<div class="software-engineering">
 			<div class="row">
-				<div class="se-detail">
-					<div class="col-md-12 col-sm-12">
-
+				<div class="col-md-12 col-sm-12">
+					<div class="se-detail">
+						<h5>TRI Organization and Software Enginnering</h5>
 					</div>
 				</div>
 			</div>
