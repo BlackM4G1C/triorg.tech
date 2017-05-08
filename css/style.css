@@ -44,12 +44,21 @@ h1,h2,h3,h4,h5,h6{
 }
 
 body{
-	font-family: 'Titillium Web', sans-serif;
+	font-family : 'Titillium Web', sans-serif;
+	color       : #333;
 }
 
 .container-fluid{
-	padding   : 0px !important;
+	padding       : 0px !important;
 }
+
+.row{
+	margin-left  : 0px !important;
+	margin-right : 0px !important;
+}
+
+
+
 /*
 
 	Css for navbar
@@ -66,9 +75,9 @@ body{
 }
 
 .navbar-brand>a>span{
-	font-family  : 'Dosis',sans-serif;
-	font-weight  : 600;
-	font-size    : 20px;
+	font-family     : 'Dosis',sans-serif;
+	font-weight     : 600;
+	font-size       : 20px;
 	letter-spacing  : 2px;
 }
 
@@ -108,14 +117,14 @@ body{
 		display   : none !important;
 	}
 	.navbar-header{
-		width     : 100%;
-		background-color     : #333;
+		width              : 100%;
+		background-color   : #333;
 	}
 }
 
 
 .mm-menu .mm-navbar a, .mm-menu .mm-navbar>*{
-	color : #4CAF50 !important;
+	color       : #4CAF50 !important;
 	font-family : 'Dosis' , 'sans-serif';
 	font-weight : 600;
 	font-size   : 20px;
@@ -161,16 +170,29 @@ body{
 
 */
 
-.container-fluid>.row>.aim{
+.aim{
 	height            : 400px;
 	background-color  : #000;
+	position          : relative;
+	background        : url('../img/background.jpg') no-repeat center center fixed;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-backgeound-size      : cover;
+	background-size         : cover;
 
 }
 
-.aim>h6{
+.aim .layer{
+	background-color  : rgba(0, 0, 0, 0.9);
+	position          : absolute;
+	bottom            : 0px;
+	top               : 0px;
+}
+
+.aim h6{
 	margin       : 0px;
 	padding-top  : 120px;
-	color        : #0052CC;
+	color        : #0348AC;
 	font-size    : 25px;
 	font-weight  : 400;
 	text-align   : center;
@@ -178,13 +200,13 @@ body{
 
 }
 
-.aim>p{
+.aim p{
 	text-align   : center;
-	width        : 900px;
 	margin-left  : auto;
 	margin-right : auto;
 	margin-top   : 30px;
 	font-size    : 18px;
+	color        : #fff;
 }
 
 
@@ -197,6 +219,7 @@ body{
 .security{
 	/*height            : 500px;*/
 	background-color  : #000;
+	clear             : both;
 
 }
 
@@ -208,7 +231,7 @@ body{
 	margin         : 0px;
 	padding-top    : 30px;
 	padding-bottom : 20px;
-	color          : #0052CC;
+	color          : #0348AC;
 	font-size      : 25px;
 	font-weight    : 400;
 	font-family    : 'Titillium Web', sans-serif;
@@ -236,11 +259,15 @@ body{
 	margin         : 0px;
 	padding-top    : 30px;
 	padding-bottom : 20px;
-	color          : #0052CC;
+	color          : #0348AC;
 	font-size      : 25px;
 	font-weight    : 400;
 	font-family    : 'Titillium Web', sans-serif;
 	text-transform : uppercase;
+}
+
+.webdeveloping .webdev-description{
+	padding        : 30px;
 }
 
 .webdeveloping .webdev-description>p{
@@ -258,17 +285,55 @@ body{
 
 
 .se-detail{
-	background-color  : #000;
+	background-color  : #FFF;
+	padding-bottom    : 40px;
+	padding-top       : 40px;
 }
 
-.se-detail>h5{
+/*.se-detail>h5{
+	border          : 1px solid #333;
 	margin          : 0px;
-	padding-top     : 70px;
-	padding-bottom  : 20px;
-	color           : #0052CC;
+	margin-bottom   : 70px;
+	color           : blue;
 	font-size       : 30px;
 	font-weight     : 400;
 	text-align      : center;
 	text-transform  : uppercase;
 	font-family     : 'Titillium Web' , sans-serif;
+	display         : inline-block;
+	padding         : 20px;
+}*/
+
+
+
+
+.se-detail .se-part-section .se-part{
+	padding           : 30px;
+	border            : 1px solid #333;
+	margin            : 15px;
+	border-radius     : 3px;
+	/*background-color  : #FFF;*/
+}
+
+.se-detail .se-part-section .se-part .se-img{
+	padding        : 5px;
+	border-bottom  : 1px solid #333;
+	padding-bottom : 15px;
+}
+
+.se-detail .se-part-section .se-part .se-img img{
+	width   : 348px;
+	height  : 261px;
+}
+
+.se-detail .se-part-section .se-part .se-letter>h6{
+	font-size      : 18px;
+	letter-spacing : 2px;
+	color          : #0348AC;
+}
+
+.se-detail .se-part-section .se-part .se-letter>p{
+	font-size       : 15px;
+	text-align      : justify;
+	text-indent     : 40px;
 }
