@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6{
 
 body{
 	font-family : 'Titillium Web', sans-serif;
-	color       : #333;
+	color       : #337ab7;
 }
 
 .container-fluid{
@@ -192,7 +192,7 @@ body{
 .aim h6{
 	margin       : 0px;
 	padding-top  : 12%;
-	color        : #0348AC;
+	color        : #00C831;
 	font-size    : 25px;
 	font-weight  : 400;
 	text-align   : center;
@@ -206,7 +206,6 @@ body{
 	margin-right : auto;
 	margin-top   : 30px;
 	font-size    : 18px;
-	color        : #fff;
 }
 
 
@@ -231,7 +230,7 @@ body{
 	margin         : 0px;
 	padding-top    : 30px;
 	padding-bottom : 20px;
-	color          : #0348AC;
+	color          : #00C831;
 	font-size      : 25px;
 	font-weight    : 400;
 	font-family    : 'Titillium Web', sans-serif;
@@ -259,11 +258,13 @@ body{
 	margin         : 0px;
 	padding-top    : 30px;
 	padding-bottom : 20px;
-	color          : #0348AC;
+	color          : #00C831;
 	font-size      : 25px;
 	font-weight    : 400;
 	font-family    : 'Titillium Web', sans-serif;
 	text-transform : uppercase;
+	/*0348AC*/
+
 }
 
 .webdeveloping .webdev-description{
@@ -329,7 +330,7 @@ body{
 .se-detail .se-part-section .se-part .se-letter>h6{
 	font-size      : 18px;
 	letter-spacing : 2px;
-	color          : #0348AC;
+	color          : #00C831;
 }
 
 .se-detail .se-part-section .se-part .se-letter>p{
@@ -361,7 +362,7 @@ body{
 
 
 .networking h4{
-	color           : #0348AC;
+	color           : #00C831;
 	font-size       : 35px;
 	letter-spacing  : 2px;
 	margin-top      : 12%;
@@ -369,7 +370,6 @@ body{
 
 .networking p{
 	font-size       : 17px;
-	color           : #FFF;
 }
 
 
@@ -395,7 +395,7 @@ body{
 
 
 .ai-detail h2{
-	color           : #0348AC;
+	color           : #00C831;
 	margin-top      : 18%;
 	margin-bottom   : 2%;
 	text-transform  : uppercase;
@@ -403,7 +403,6 @@ body{
 
 
 .ai-detail p{
-	color         : #FFF;
 	font-size     : 17px;
 	text-align    : justify;
 	text-indent   : 50px;
