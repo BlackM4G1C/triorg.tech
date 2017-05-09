@@ -57,6 +57,12 @@ body{
 	margin-right : 0px !important;
 }
 
+.layer{
+	background-color  : rgba(0, 0, 0, 0.9);
+	position          : absolute;
+	bottom            : 0px;
+	top               : 0px;
+}
 
 
 /*
@@ -182,16 +188,10 @@ body{
 
 }
 
-.aim .layer{
-	background-color  : rgba(0, 0, 0, 0.9);
-	position          : absolute;
-	bottom            : 0px;
-	top               : 0px;
-}
 
 .aim h6{
 	margin       : 0px;
-	padding-top  : 120px;
+	padding-top  : 12%;
 	color        : #0348AC;
 	font-size    : 25px;
 	font-weight  : 400;
@@ -308,9 +308,9 @@ body{
 
 
 .se-detail .se-part-section .se-part{
-	padding           : 30px;
+	padding           : 15px;
 	border            : 1px solid #333;
-	margin            : 15px;
+	margin            : 25px;
 	border-radius     : 3px;
 	/*background-color  : #FFF;*/
 }
@@ -336,4 +336,75 @@ body{
 	font-size       : 15px;
 	text-align      : justify;
 	text-indent     : 40px;
+}
+
+
+
+
+
+/*
+
+	Networking
+
+*/
+
+
+.networking{
+	position       : relative;
+	height         : 400px;
+	background     : url('../img/ne.jpg') no-repeat center center fixed;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-background-size      : cover;
+	background-size         : cover;
+}
+
+
+.networking h4{
+	color           : #0348AC;
+	font-size       : 35px;
+	letter-spacing  : 2px;
+	margin-top      : 12%;
+}
+
+.networking p{
+	font-size       : 17px;
+	color           : #FFF;
+}
+
+
+
+
+/*
+
+	Artificial Intelligence
+
+*/
+
+
+
+.ai-detail{
+	position          : relative;
+	height            : 600px;
+	background        : url('../img/ai.jpg') no-repeat center center fixed;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-background-size      : cover;
+	background-size         : cover;
+}
+
+
+.ai-detail h2{
+	color           : #0348AC;
+	margin-top      : 18%;
+	margin-bottom   : 2%;
+	text-transform  : uppercase;
+}
+
+
+.ai-detail p{
+	color         : #FFF;
+	font-size     : 17px;
+	text-align    : justify;
+	text-indent   : 50px;
 }
