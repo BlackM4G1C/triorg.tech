@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6{
 
 body{
 	font-family : 'Titillium Web', sans-serif;
-	color       : #333;
+	color       : #337ab7;
 }
 
 .container-fluid{
@@ -57,6 +57,12 @@ body{
 	margin-right : 0px !important;
 }
 
+.layer{
+	background-color  : rgba(0, 0, 0, 0.9);
+	position          : absolute;
+	bottom            : 0px;
+	top               : 0px;
+}
 
 
 /*
@@ -182,17 +188,11 @@ body{
 
 }
 
-.aim .layer{
-	background-color  : rgba(0, 0, 0, 0.9);
-	position          : absolute;
-	bottom            : 0px;
-	top               : 0px;
-}
 
 .aim h6{
 	margin       : 0px;
-	padding-top  : 120px;
-	color        : #0348AC;
+	padding-top  : 12%;
+	color        : #00C831;
 	font-size    : 25px;
 	font-weight  : 400;
 	text-align   : center;
@@ -206,7 +206,6 @@ body{
 	margin-right : auto;
 	margin-top   : 30px;
 	font-size    : 18px;
-	color        : #fff;
 }
 
 
@@ -231,7 +230,7 @@ body{
 	margin         : 0px;
 	padding-top    : 30px;
 	padding-bottom : 20px;
-	color          : #0348AC;
+	color          : #00C831;
 	font-size      : 25px;
 	font-weight    : 400;
 	font-family    : 'Titillium Web', sans-serif;
@@ -259,11 +258,13 @@ body{
 	margin         : 0px;
 	padding-top    : 30px;
 	padding-bottom : 20px;
-	color          : #0348AC;
+	color          : #00C831;
 	font-size      : 25px;
 	font-weight    : 400;
 	font-family    : 'Titillium Web', sans-serif;
 	text-transform : uppercase;
+	/*0348AC*/
+
 }
 
 .webdeveloping .webdev-description{
@@ -285,7 +286,7 @@ body{
 
 
 .se-detail{
-	background-color  : #FFF;
+	background-color  : #000;
 	padding-bottom    : 40px;
 	padding-top       : 40px;
 }
@@ -308,9 +309,9 @@ body{
 
 
 .se-detail .se-part-section .se-part{
-	padding           : 30px;
+	padding           : 15px;
 	border            : 1px solid #333;
-	margin            : 15px;
+	margin            : 25px;
 	border-radius     : 3px;
 	/*background-color  : #FFF;*/
 }
@@ -329,11 +330,80 @@ body{
 .se-detail .se-part-section .se-part .se-letter>h6{
 	font-size      : 18px;
 	letter-spacing : 2px;
-	color          : #0348AC;
+	color          : #00C831;
 }
 
 .se-detail .se-part-section .se-part .se-letter>p{
 	font-size       : 15px;
 	text-align      : justify;
 	text-indent     : 40px;
+}
+
+
+
+
+
+/*
+
+	Networking
+
+*/
+
+
+.networking{
+	position       : relative;
+	height         : 400px;
+	background     : url('../img/ne.jpg') no-repeat center center fixed;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-background-size      : cover;
+	background-size         : cover;
+}
+
+
+.networking h4{
+	color           : #00C831;
+	font-size       : 35px;
+	letter-spacing  : 2px;
+	margin-top      : 12%;
+}
+
+.networking p{
+	font-size       : 17px;
+}
+
+
+
+
+/*
+
+	Artificial Intelligence
+
+*/
+
+
+
+.ai-detail{
+	position          : relative;
+	height            : 600px;
+	background        : url('../img/ai.jpg') no-repeat center center fixed;
+	-webkit-background-size : cover;
+	-moz-background-size    : cover;
+	-o-background-size      : cover;
+	background-size         : cover;
+}
+
+
+.ai-detail h2{
+	color           : #00C831;
+	margin-top      : 18%;
+	margin-bottom   : 2%;
+	text-transform  : uppercase;
+}
+
+
+.ai-detail p{
+	font-size     : 17px;
+	text-align    : justify;
+	text-indent   : 50px;
 }
